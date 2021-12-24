@@ -131,11 +131,12 @@ table {
 /* change border colour to suit your needs */
 
 hr {
+	width: 100px;
 	display: block;
 	height: 1px;
 	border: 0;
-	border-top: 1px solid #cccccc;
-	margin: 1em 0;
+	border-top: 1px solid #ddd;
+	margin: 25px auto;
 	padding: 0;
 }
 input,
@@ -320,5 +321,34 @@ a {
 
 .landing-services .title {
 	font-size: 30px;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* -------------------------------- Services -------------------------------- */
+
+.services ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.services ul li {
+	width: 30%;
+	margin: 20px;
+	position: relative;
+}
+
+.services ul li h3 {
+	color: #fff;
+	margin-bottom: 30px;
+	font-size: 20px;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.services ul li p {
+	color: #fff;
+	text-align: justify;
+	line-height: 25px;
+	font-size: 14px;
 	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
 }
